@@ -1,0 +1,9 @@
+<view class='whole'>
+     <image mode='widthFix' src="http://game.flyh5.cn/resources/game/wechat/xw/rc_qc/assets/prize/prize_01.png" style="width:640rpx;"></image>
+     <view class='centerDot'  animation="{{animationData}}" bindtransitionend="transitionend">
+        <image mode='widthFix' src="http://game.flyh5.cn/resources/game/wechat/xw/rc_qc/assets/prize/prize_03.png" class='zhizhen'></image>
+     </view>
+     
+</view>
+ <button bindtap='go_rewords' wx:if="{{isdisable}}">抽奖</button>
+ <button  wx:elif="{{!isdisable}}">抽奖</button>

@@ -1,0 +1,42 @@
+/**index.wxss**/
+.whole{
+      display: flex;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+      height: 90vh;
+      position: relative;
+}
+.zhizhen{
+      width: 30rpx;
+      position: absolute;
+      left:50%;
+      top: 50%;
+      /* transition:all 5s ease-in-out; */
+      /* transform: translate(-50%,-50%); */
+      /* animation: roate 10s  ease-in-out ; */
+      margin-top:-10rpx;
+      margin-left: 90rpx; 
+}
+.centerDot{
+      width: 150rpx;
+      height: 150rpx;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      /* background-color: seagreen; */
+      transform: rotate(-90deg);
+      border-radius: 50%;
+      margin-left: -72rpx;
+      margin-top: -75rpx;
+}
+  @keyframes roate{
+        0%{
+              transform-origin:-90rpx 10rpx;
+              /* transform: rotate(0deg); */
+        }
+        100%{
+              transform-origin:-90rpx 10rpx;
+              /* transform: rotate(4320deg); */
+        }
+ } 
